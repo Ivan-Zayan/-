@@ -1,7 +1,7 @@
 # Description
 ### Computer-vision
 This project is a technical task for the employer. 
-I trained a neural network and implemented a functionality that allows you to recognize a burger menu in a screenshot of a mobile version of an arbitrary site.
+I trained a neural network and implemented a functionality that allows you to recognize a burger menu in a screenshot of a mobile version of an arbitrary site. Used openCV for training and streamlit for interface.
 ---
 # How to use the model
 1. Download the repository and install a virtual environment inside it.
@@ -14,3 +14,5 @@ I trained a neural network and implemented a functionality that allows you to re
   ![loading](d021bf4d-69ce-49a8-88c3-c17882dab365.png)
 6. Click the recognize button and get the result. The burger menu button will have a green border around it.
   ![result](56f20b73-6ef4-47a2-96f6-1779307c87c8.png)
+  ---
+  > In order to forward the local port to the Internet, I used ngrok.
